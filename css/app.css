@@ -75,37 +75,51 @@ select {
 
 /* 👇 Start custom code 👇 */
 
-.main{
+.poem-wrapper{
   display: grid;
   grid-template-columns: auto;
+  padding:  0% 20%;
+  font-size: clamp(.5rem, 1rem + 1.5vw, 1rem);
 
+}
+
+.poem-hero {
+  background-color: antiquewhite;
+}
+.poem-foto {
+  width: fit-content;
 }
 
 .poem{
-  font-family: 'Fredericka the Great';
-  font-size: clamp(1rem, 1rem + 1.5vw, 2rem);
+  font-family: 'Josefin Slab', serif;
   color: rgb(65, 19, 22);
-  padding: min(3.5vw, 10vw);
   background-color: antiquewhite;
   display: grid;
   grid-template-columns: auto;
-  gap: 2vw;
+}
+
+.poem-header{
+  display: grid;
+  grid-template-columns: auto;
+  padding: 2% 30%;
+  background-color: rgb(65, 19, 22);
+  color: antiquewhite;
+}
+
+.poem-header h1 {
+  font-family: 'Fredericka the Great';
+  font-size: clamp(1rem, 1rem + 2.5vw, 4rem);
+}
+
+.poem-text{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 4vh;
+  padding: 5% 0%;
+  font-size: clamp(1rem, 1rem + 1.5vw, 1.5rem);
   justify-content: center;
 }
 
-.intro {
-  background-color: rgb(65, 19, 22);
-  color: antiquewhite;
-  padding-left: 2vw;
-}
-
-
-p {
-  font-family: 'Josefin Slab', serif;
-}
-.hero {
-  background-color: aliceblue;
-}
 
 
 
