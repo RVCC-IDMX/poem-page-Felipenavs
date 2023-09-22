@@ -84,6 +84,7 @@ select {
 }
 
 .poem-hero {
+  padding: 2% 4%;
   background-color: antiquewhite;
 }
 .poem-foto {
